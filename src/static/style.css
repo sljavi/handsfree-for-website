@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+.container h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.container h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.controls .card-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+table td, table th {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+table tr th {
+  font-weight: 500;
+}
+.context-id {
+  color: #d73a49;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  padding: 7px;
+  display: inline-block;
+}
+blockquote {
+  font-weight: 300;
+}
+blockquote p {
+  margin-top: 0.5rem;
+}
+blockquote h4 {
+  font-weight: 500;
+}

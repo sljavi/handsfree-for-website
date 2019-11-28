@@ -1,0 +1,43 @@
+{
+  "name": "handsfree-for-website",
+  "version": "0.1.0",
+  "description": "Hands-free navigation for websites - website voice control",
+  "main": "dist/handsfree-for-website.js",
+  "module": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "start": "NODE_ENV=development webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "Javier Perez",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "dom-element-types": "^1.1.0",
+    "handsfree-core": "^0.1.1",
+    "handsfree-for-website-modules": "^1.0.1",
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "web-speech-recognizer": "^1.0.2",
+    "words-to-numbers": "^1.2.1"
+  }
+}
