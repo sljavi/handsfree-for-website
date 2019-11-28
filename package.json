@@ -1,6 +1,6 @@
 {
   "name": "handsfree-for-website",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hands-free navigation for websites - website voice control",
   "main": "dist/handsfree-for-website.js",
   "module": "src/index.js",

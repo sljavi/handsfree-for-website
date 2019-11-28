@@ -41,5 +41,9 @@ module.exports = {
       from: './src/static',
       to: '',
     }]),
+    new CopyPlugin([{
+      from: './node_modules/handsfree-core/dist/fonts',
+      to: 'fonts',
+    }]),
   ],
 };
