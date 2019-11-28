@@ -41,5 +41,9 @@ module.exports = {
       from: './src/static',
       to: '',
     }]),
+    new CopyPlugin([{
+      from: './src/static',
+      to: '../docs',
+    }]),
   ],
 };
