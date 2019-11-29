@@ -149,3 +149,7 @@ export function init(userSettings = {}) {
     getLanguage,
   };
 }
+
+export default {
+  init,
+};
