@@ -107,7 +107,7 @@ function generateModules() {
       const contexts = (module.contexts || []).map(getModuleContext);
       const moduleEl = `
         <li>
-          <div class="collapsible-header"><i class="${module.icon}"></i>${name}</div>
+          <div class="collapsible-header" role="button"><i class="${module.icon}"></i>${name}</div>
           <div class="collapsible-body">
             <p>${getTranslation(module.description, module)}</p>
             ${contexts.join('')}

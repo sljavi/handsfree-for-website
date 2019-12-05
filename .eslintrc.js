@@ -30,6 +30,7 @@ module.exports = {
     'no-console': ['off'],
     'no-shadow': ['off'],
     'no-unused-vars': ['error', {'args': 'none'}],
-    'no-use-before-define': ['off']
+    'no-use-before-define': ['off'],
+    'arrow-body-style': ['off']
   }
 };

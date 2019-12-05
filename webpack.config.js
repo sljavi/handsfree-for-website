@@ -2,7 +2,7 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: ['@babel/polyfill', './src/index.js'],
+  entry: ['@babel/polyfill/noConflict', './src/index.js'],
   mode: process.env.NODE_ENV,
   output: {
     path: path.resolve(__dirname, 'dist'),
