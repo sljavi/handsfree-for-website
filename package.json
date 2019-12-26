@@ -1,6 +1,6 @@
 {
   "name": "handsfree-for-website",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Hands-free navigation for websites - website voice control",
   "main": "dist/handsfree-for-website.js",
   "module": "src/index.js",
@@ -33,7 +33,7 @@
   "dependencies": {
     "dom-element-types": "^1.1.0",
     "handsfree-core": "^0.1.5",
-    "handsfree-for-website-modules": "^1.1.1",
+    "handsfree-for-website-modules": "^1.2.0",
     "jquery": "^3.1.0",
     "lodash": "^4.15.0",
     "moment": "^2.14.1",

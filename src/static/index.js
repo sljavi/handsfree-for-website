@@ -27,7 +27,7 @@ function listenForControlChanges() {
 function getTranslation(key = '', scope) {
   if (key.indexOf('i18n-') === 0) {
     const updatedKey = key.replace('i18n-', '');
-    const translations = scope && scope.i18n && scope.i18n[lang];
+    const translations = (scope && scope.i18n && scope.i18n[lang]) || {};
     return translations[updatedKey] || key;
   }
   return key;

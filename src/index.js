@@ -10,6 +10,7 @@ const languages = {
   en: 'en-US',
   es: 'es-AR',
   pt: 'pt-BR',
+  zh: 'zh-HK',
 };
 
 function getSelectedLang() {
