@@ -4,9 +4,9 @@ Turn on voice control in your website.
 
 Handsfree for website allows users to interact with the web page just by speaking voice commands. Hundreds of voice commands are supported out of the box. e.g. "click", "select", "search text", "scroll up", "play" and "reload".
 
-Check out this demo page to see how the voice control works.
+Check out this [demo page](https://sljavi.github.io/handsfree-for-website/dist/index.html) to see how the voice control works.
 
-## Features
+## Features
 
 Voice commands for HTML elements
  - Links
@@ -34,7 +34,7 @@ Multiple languages are supported
 Custom voice commands
  - Build your own set of voice commands
 
-Check out demo to see the full list of voice commands
+Check out [demo](https://sljavi.github.io/handsfree-for-website/dist/index.html) to see the full list of voice commands
 
 ## Requirements
 
@@ -48,7 +48,7 @@ Here you can check the browser support
 
 Add handsfree for website as dependency
 
-```
+```shell
 npm install handsfree-for-website
 ```
 
@@ -93,35 +93,35 @@ Useful to initialize the speech recognition service.
 ##### Returns
 `(Object)`: Handsfree for website client.
 
-### Handsfree for website client
+### Handsfree for website client API
 
-As result of executing the `init` function an object with the following methods is brought to interact with the tool.
+As result of executing the `init` function an object with the following methods is given to interact with the tool.
 
-#### turnOn()
+#### turnOn()
 It makes the mic start listening for voice commands
 
-#### turnOff()
+#### turnOff()
 It finishes the speech recogntion service and makes the mic stop listening
 
-#### turnOnContinuesRecognition()
+#### turnOnContinuesRecognition()
 It switches the speech recognition to a continues mode.
 
-#### turnOffContinuesRecognition()
+#### turnOffContinuesRecognition()
 It switches off the continues speech recognition. The user will need to press the `Ctrl` key before say any voice command.
 
-#### getModules()
+#### getModules()
 It returns the list of voice commands modules.
 
 #### addModules(Modules<Array>)
 It adds voice commands modules to the previously configured.
 
-#### setModules(Modules<Array>)
+#### setModules(Modules<Array>)
 It replaces the list of voice commands modules with the provided ones.
 
-#### changeLanguage('lang-code')
+#### changeLanguage('lang-code')
 It changes the language. A language code format (ISO 639-1) is expected. i.e. "en-US"
 
-#### getLanguage()
+#### getLanguage()
 It returns the current language.
 
 ## Custom voice commands
@@ -146,5 +146,4 @@ const myModule = {
 }
 handsfree.addModules([myModule]);
 ```
-
-[Read more](https://github.com/sljavi/handsfree-for-website-modules) about how to implement voice command modules
+Much more complex modules can be implemented check out the [docs](https://github.com/sljavi/handsfree-for-website-modules) to know how to do it.
