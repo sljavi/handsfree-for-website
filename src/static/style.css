@@ -36,3 +36,8 @@ blockquote p {
 blockquote h4 {
   font-weight: 500;
 }
+.ctrl-key {
+  display: none;
+  font-size: 0.8em;
+  margin-top: 0.8em !important;
+}
