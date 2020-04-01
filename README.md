@@ -29,7 +29,7 @@ Multiple languages are supported
  - English
  - Spanish
  - Portuguese
- - Chinese (under development)
+ - Chinese (Cantonese)
 
 Custom voice commands
  - Build your own set of voice commands
