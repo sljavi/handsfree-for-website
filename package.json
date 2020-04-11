@@ -33,7 +33,7 @@
   "dependencies": {
     "dom-element-types": "^1.1.0",
     "handsfree-core": "^0.1.5",
-    "handsfree-for-website-modules": "^1.3.0",
+    "handsfree-for-website-modules": "^1.3.3",
     "jquery": "^3.1.0",
     "lodash": "^4.15.0",
     "moment": "^2.14.1",
