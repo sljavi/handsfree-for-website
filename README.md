@@ -55,9 +55,9 @@ npm install handsfree-for-website
 Initialize and run the tool
 
 ```javascript
-import hansfreeForWebsite from 'handsfree-for-website';
+import handsfreeForWebsite from 'handsfree-for-website';
 
-const handsfree = hansfreeForWebsite.init();
+const handsfree = handsfreeForWebsite.init();
 handsfree.turnOn();
 ```
 
